@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='register.css'>
+	<script src='register.js'></script>
+</head>
+<body>
+	<div class="container">
+	<form name="myForm" id="myForm" action="login.html">
+		<fieldset id="form">
+			<legend>Register</legend>
+			<span>* require</span> <br>
+			<div class="row">
+				<div class="col-25">
+				  <label for="fname">First Name *</label>
+				</div>
+				<div class="col-75">
+				  <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  <label for="lname">Last Name</label>
+				</div>
+				<div class="col-75">
+				  <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  <label for="country">Gender *</label>
+				</div>
+				<div class="col-75">
+				  <select id="country" name="Gender" required>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="female">N/A</option>
+				  </select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  <label for="bday">Birthday *</label>
+				</div>
+				<div class="col-75">
+				  <input type="date" id="bday" name="bday" placeholder="Your Birthday *" value="" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  <label for="email">E-Mail Address *</label>
+				</div>
+				<div class="col-75">
+				  <input type="email" id="email" name="email" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  <label for="username">Username *</label>
+				</div>
+				<div class="col-75">
+				  <input type="text" id="uesrname" name="username" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  <label for="password">Password *</label>
+				</div>
+				<div class="col-75">
+				  <input type="password" id="password" name="password" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  <label for="repass">Re-Type your password *</label>
+				</div>
+				<div class="col-75">
+				  <input type="password" id="repass" name="repass">
+				</div>
+			</div>
+			<div class="row">
+				<input type="reset" value="Reset" id="btn">
+				<input type="submit" value="Register" id="btn">
+			</div>
+		</fieldset>
+	</form>
+	</div>
+	<div id="button"><a href="https://pleum187156.github.io/mainpage/">Back</a></div>
+</body>
+</html>
